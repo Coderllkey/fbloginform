@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Padauk&display=swap" rel="stylesheet">
+    <title>FB Login form</title>
+    <style>
+        form {
+            border: 1px solid rgb(221, 215, 215);
+            width: 300px;
+            height: 270px;
+            position: relative;
+            background-color: whitesmoke;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            margin: 5px auto;
+        }
+
+        .rounded {
+            border-radius: 5px;
+        }
+
+        .wh {
+            width: 270px;
+            height: 30px;
+            box-sizing: border-box;
+
+        }
+
+        input {
+            border: 1px solid rgb(221, 215, 215);
+            padding-left: 5px;
+            display: block;
+            margin: 20px auto;
+        }
+
+        input:focus {
+            border: 0;
+        }
+
+        .font {
+            font-family: 'Padauk', sans-serif;
+        }
+
+        a.btn {
+            border: 1px solid #567ed6;
+            margin: 5px auto;
+            line-height: 28px;
+            background-color: #567ed6;
+            font-size: larger;
+        }
+
+        .for-btn {
+            display: block;
+            text-align: center;
+            text-decoration: none;
+            color: white;
+
+
+
+        }
+
+        .forgot {
+            display: block;
+            text-align: center;
+            margin-top: 10px;
+            text-decoration: none;
+            color: #567ed6;
+        }
+
+        .btn-2 {
+            border: 1px solid rgb(59, 177, 59);
+            margin: 40px auto 5px auto;
+            width: 150px;
+            height: 25px;
+            line-height: 25px;
+            background-color: rgb(59, 177, 59);
+        }
+
+        hr {
+            background-color: rgb(199, 196, 196);
+            width: 250px;
+            height: 1px;
+            border: 0;
+        }
+
+        .container-2 {
+            /* background-color: rgb(196, 108, 108); */
+            width: 350px;
+            position: absolute;
+            right: 200px;
+            top: 100px;
+        }
+
+        .text {
+            display: block;
+            margin: 10px 5px 5px 5px;
+            text-align: center;
+        }
+
+        .heading {
+            color: #567ed6;
+            margin-bottom: 0;
+            font-size: 4rem;
+        }
+
+        .sologan {
+            margin-top: 0;
+            font-size: 25px;
+        }
+
+        .container-1 {
+            /* background-color: aqua; */
+            width: 500px;
+            position: absolute;
+            top: 50px;
+            left: 160px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-1">
+        <h1 class="heading font"> facebook
+        </h1>
+        <p class="sologan font">Facebook helps you connect and share with the people in your life.</p>
+
+    </div>
+    <div class="container-2">
+        <form class="rounded">
+            <input class="wh rounded" type="email" placeholder="Email address or phone number">
+            <input class="wh rounded" type="password" placeholder="Password">
+            <a class="font btn rounded wh for-btn" href="#">Login</a>
+            <a class="font forgot" href="#">Forgotten password?</a>
+            <hr>
+
+            <a href="#" class=" font rounded btn-2 for-btn">Create New Account</a>
+        </form>
+        <p class="font text"><strong>Create a page</strong> for a celebrity, band or business</p>
+    </div>
+</body>
+
+</html>
